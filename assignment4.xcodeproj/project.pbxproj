@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F10A91321BD0C3D50008849B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F10A91311BD0C3D50008849B /* main.cpp */; };
+		F10A91391BD0C3E20008849B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10A91381BD0C3E20008849B /* Cocoa.framework */; };
+		F10A913B1BD0C3E80008849B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10A913A1BD0C3E80008849B /* OpenGL.framework */; };
+		F10A913D1BD0C3ED0008849B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10A913C1BD0C3ED0008849B /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		F10A912E1BD0C3D50008849B /* assignment4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = assignment4; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10A91311BD0C3D50008849B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F10A91381BD0C3E20008849B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F10A913A1BD0C3E80008849B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F10A913C1BD0C3ED0008849B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10A913D1BD0C3ED0008849B /* GLUT.framework in Frameworks */,
+				F10A913B1BD0C3E80008849B /* OpenGL.framework in Frameworks */,
+				F10A91391BD0C3E20008849B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +50,9 @@
 		F10A91251BD0C3D50008849B = {
 			isa = PBXGroup;
 			children = (
+				F10A913C1BD0C3ED0008849B /* GLUT.framework */,
+				F10A913A1BD0C3E80008849B /* OpenGL.framework */,
+				F10A91381BD0C3E20008849B /* Cocoa.framework */,
 				F10A91301BD0C3D50008849B /* assignment4 */,
 				F10A912F1BD0C3D50008849B /* Products */,
 			);

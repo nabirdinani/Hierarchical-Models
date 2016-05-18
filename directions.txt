@@ -1,0 +1,72 @@
+Nabir Dinani
+Programming assignment 4 - Hierarchical Models and View Transform 
+
+The assignment was to write a program that lets the user control the movements of the 3d bug and the camera. Instead of using cubes, i used spheres for legs since it concealed the separation better than cubes and removed the need for me to use spheres to conceal the separation. 
+
+Zoom
+	- does not move the camera just zooms in and out of the object.
+		'+' -> zoom in
+		'-' -> zoom out
+
+Object centered rotation
+	- moves the camera but does not change where the camera is pointed.
+			'w' -> move camera up
+			'a' -> move camera left
+			'z' -> move camera down
+			'd' -> move camera right
+
+Pan
+	- moves the camera and the position the camera is pointed at by the same amount.
+	- The user can pan the camera by clicking and dragging in the window.
+	- The camera will move in the opposite direction that the user is dragging.
+	- This is intuitive because it appears that the object is moving in the direction being dragged.
+	- limited camera pan in a given direction 
+ 	- The user can also pan the camera using keys. When panning, the model will appear to move in the opposite direction that you are panning just like it would in clicking and dragging. This is because the camera is moving, not the model.
+		'i' -> pan camera up
+		'j' -> pan camera left
+		'm' -> pan camera down
+		'l' -> pan camera right
+
+Note from now onwards: 'right', 'left', 'front', and 'back' bug legs is from the bug's point of view, NOT the users. For example: a 'left leg' is a leg on the left side of the bug's body, not necessarily a leg appearing on the left side of the screen.
+
+Leg Controls (Each leg 2 segments: upper-arm and forearm)
+
+'1' - rotates front left upper arm up
+'!' - rotates front left upper arm down
+'2' - rotates front left forearm up
+'@' - rotates front left forearm down
+
+'3' - rotates middle left upper arm up
+'#' - rotates middle left upper arm down
+'4' - rotates middle left forearm up
+'$' - rotates middle left forearm down
+
+'5' - rotates back left upper arm up
+'%' - rotates back left upper arm down
+'6' - rotates back left forearm up
+'^' - rotates back left forearm down
+
+'7' - rotates back right upper arm up
+'&' - rotates back right upper arm down
+'8' - rotates back right forearm up
+'8' - rotates back right forearm down
+
+'9' - rotates middle right upper arm up
+'(' - rotates middle right upper arm down
+'0' - rotates middle right forearm up
+')' - rotates middle right forearm down
+
+'q' - rotates front left upper arm up
+'Q' - rotates front left upper arm down
+'e' - rotates front left forearm up
+'E' - rotates front left forearm down
+
+Head Controls 
+
+'t' - rotates the head up
+'f' - rotates the head right
+'v' - rotates the head down
+'h' - rotates the head left
+
+
+
